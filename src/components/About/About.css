@@ -1,0 +1,75 @@
+.about h2 {
+  color: #fff;
+  position: relative;
+  left: 1.25rem;
+}
+
+.about h2::before {
+  content: "";
+  position: absolute;
+  left: -0.5rem;
+  height: 100%;
+  width: 0.25rem;
+  background-color: #0055ff;
+}
+
+.about h2 span {
+  color: #0056ff;
+}
+
+.about p {
+  color: #fff;
+}
+.about p.aboutDetails {
+  color: #85829b;
+  margin: 1.25rem 0;
+}
+
+.about button {
+  color: #fff;
+  padding: 0.625rem 30px;
+  font-weight: 700;
+}
+
+.about a:first-of-type button {
+  background-color: transparent;
+  border: 2px solid #0055ff;
+  border-radius: 0.5rem;
+}
+.about a:first-of-type button:hover {
+  background-color: #0056ff;
+  border: 2px solid transparent;
+}
+
+.about a:last-of-type button {
+  background-color: #0055ff;
+  border: 2px solid transparent;
+  border-radius: 3.125rem;
+}
+
+.about a:last-of-type button:hover {
+  background-color: transparent;
+  border: 2px solid #0055ff;
+}
+
+.about h5 {
+  color: #fff;
+  border-bottom: 2px dotted #85829b;
+  padding-bottom: 1.25rem;
+  margin: 1.25rem .625rem;
+}
+
+@media (max-width: 991px) {
+  .about .call {
+    display: block !important;
+  }
+  .about .call p i {
+    padding-left: 0 !important;
+  }
+  .about a:last-of-type {
+    display: block;
+    margin: 1.25rem 0 !important;
+  }
+}
+
+

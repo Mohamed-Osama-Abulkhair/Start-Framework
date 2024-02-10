@@ -1,0 +1,108 @@
+
+.container.home .details h1 {
+  color: #fff;
+  margin: 2rem 0;
+}
+
+.container.home .details h1 span {
+  color: #0056ff;
+}
+
+.container.home .details p {
+  font-size: 1.25rem;
+}
+
+.container.home .details p:first-child {
+  color: #0056ff;
+}
+
+.container.home .details p:last-of-type {
+  color: #85829b;
+  margin-bottom: 2rem;
+}
+
+.container.home .details a:first-of-type {
+  margin-right: 1.25rem;
+}
+
+.container.home .details button {
+  color: #fff;
+  padding: 0.625rem 30px;
+  background-color: #0056ff;
+  border: 2px solid transparent;
+  border-radius: 3.125rem;
+  font-weight: 700;
+}
+
+.container.home .details a:first-of-type button:hover {
+  background-color: transparent;
+  border: 2px solid #0056ff;
+}
+
+.container.home .details a:last-of-type button {
+  background-color: transparent;
+  border: 2px solid #0056ff;
+}
+
+.container.home .details a:last-of-type button span.d-flex {
+  width: fit-content;
+}
+
+.container.home .details a:last-of-type button span.arrow {
+  display: inline-block;
+  background-color: #fff;
+  width: 2rem;
+  height: 0.125rem;
+}
+
+.container.home .details a:last-of-type button i {
+  margin-left: -2px;
+}
+
+.container.home .details a:last-of-type button:hover {
+  background-color: #0056ff;
+  border: 2px solid transparent;
+}
+
+.container.home .follow {
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  color: #85829b;
+  text-transform: uppercase;
+}
+
+.container.home .follow .arrow {
+  width: 2px;
+  height: 40px;
+  background-color: #85829b;
+}
+
+.container.home .follow .fa-caret-down {
+  margin-top: -10px;
+}
+
+.container.home .follow a {
+  margin-top: 10px;
+}
+
+.container.home .follow a .fa-brands {
+  padding: 10px;
+  border-radius: 50%;
+  color: #fff;
+  background-color: #0056ff;
+  border: 2px solid transparent;
+}
+
+.container.home .follow a .fa-brands:hover {
+  color: #0056ff;
+  background-color: transparent;
+  border: 2px solid #0056ff;
+}
+
+@media (max-width: 991px) {
+  .container.home .details a:first-of-type {
+    margin: 1.25rem 1.25rem 1.25rem 0;
+    display: inline-block;
+  }
+}
+

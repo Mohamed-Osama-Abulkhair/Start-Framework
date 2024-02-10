@@ -1,0 +1,22 @@
+.notFound h2 {
+  color: #00d2fd;
+}
+
+.notFound img {
+  width: 100%;
+  margin: 2.5rem 0;
+}
+
+.notFound button {
+  background-color: #00d2fd;
+  color: #00072c;
+  padding: 0.625rem 1.875rem;
+  border-radius: 3.125rem;
+  font-weight: 700;
+  border: none;
+}
+
+.notFound button:hover {
+  background-color: #00072c;
+  color: #00d2fd;
+}
